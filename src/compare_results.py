@@ -37,6 +37,12 @@ plt.ylabel("Electricity Cost")
 plt.title("Test Electricity Cost Comparison")
 
 plt.tight_layout()
+
+plt.savefig(
+    "results/figures/electricity_cost_comparison.png",
+    dpi=300
+)
+
 plt.show()
 
 
@@ -51,4 +57,10 @@ plt.ylabel("Grid Energy (kWh)")
 plt.title("Test Grid Energy Comparison")
 
 plt.tight_layout()
+
+plt.savefig(
+    "results/figures/grid_energy_comparison.png",
+    dpi=300
+)
+
 plt.show()

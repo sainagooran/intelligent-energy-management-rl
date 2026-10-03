@@ -145,12 +145,27 @@ The final battery levels were:
 
 ## Visualizations
 
-The project includes several visualizations:
+The project includes several visualizations.
 
-- Energy demand and solar generation
-- Battery level during the test period
-- Electricity cost comparison
-- Grid energy comparison
+### Energy Demand and Solar Generation
+
+![Energy Demand and Solar Generation](results/figures/energy_demand_solar.png)
+
+### Battery Level - Rule-Based Controller
+
+![Battery Level - Rule-Based Controller](results/figures/battery_rule_based.png)
+
+### Battery Level - DQN
+
+![Battery Level - DQN](results/figures/battery_dqn.png)
+
+### Electricity Cost Comparison
+
+![Electricity Cost Comparison](results/figures/electricity_cost_comparison.png)
+
+### Grid Energy Comparison
+
+![Grid Energy Comparison](results/figures/grid_energy_comparison.png)
 
 The plotting scripts are located in:
 
@@ -158,8 +173,6 @@ The plotting scripts are located in:
 src/visualize_data.py
 src/plot_results.py
 src/compare_results.py
-```
-
 ## Project Structure
 
 ```text

@@ -56,4 +56,10 @@ plt.ylabel("Battery Level (kWh)")
 plt.title("Battery Level - DQN")
 
 plt.tight_layout()
+
+plt.savefig(
+    "results/figures/battery_dqn.png",
+    dpi=300
+)
+
 plt.show()
